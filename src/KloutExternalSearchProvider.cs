@@ -9,19 +9,16 @@
 
 using System;
 using System.Collections.Generic;
-using System.Configuration;
-using System.Globalization;
 using System.Linq;
 using System.Net;
 using CluedIn.Core;
 using CluedIn.Core.Data;
 using CluedIn.Core.Data.Parts;
-using CluedIn.Core.FileTypes;
-using CluedIn.Core.Utilities;
-using CluedIn.Crawling;
 using CluedIn.ExternalSearch.Providers.Klout.Model;
 using RestSharp;
 using CluedIn.ExternalSearch.Providers.Klout.Vocabularies;
+using EntityType = CluedIn.Core.Data.EntityType;
+using ExecutionContext = CluedIn.Core.ExecutionContext;
 
 namespace CluedIn.ExternalSearch.Providers.Klout
 {
